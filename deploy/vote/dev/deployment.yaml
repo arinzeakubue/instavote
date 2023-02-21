@@ -1,13 +1,12 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  creationTimestamp: null
   labels:
     app: vote
     tier: front
   name: vote
 spec:
-  replicas: 3
+  replicas: 1
   template:
     spec:
       containers:
