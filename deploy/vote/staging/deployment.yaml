@@ -15,10 +15,10 @@ spec:
       - name: vote
         resources:
           limits:
-            cpu: 200Mi
-            memory: 500m
+            cpu: 50Mi
+            memory: 200m
           requests:
-            cpu: 200Mi
+            cpu: 50Mi
             memory: 200m
         envFrom: 
           - configMapRef: 
