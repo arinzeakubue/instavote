@@ -6,6 +6,9 @@ metadata:
     tier: front
   name: vote
 spec:
+  selector:
+    matchLabels:
+      app: vote
   template:
     spec:
       containers:
